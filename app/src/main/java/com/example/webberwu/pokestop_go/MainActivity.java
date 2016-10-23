@@ -16,7 +16,7 @@ import okhttp3.RequestBody;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
-    private Button bt1;
+    private Button buttonsss;
     private TextView textview;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         new RunWork().start();
     }
     private void findViews(){
-        bt1 = (Button) findViewById(R.id.button1);
+        buttonsss = (Button) findViewById(R.id.button1);
         textview = (TextView) findViewById(R.id.textview1);
     }
 
